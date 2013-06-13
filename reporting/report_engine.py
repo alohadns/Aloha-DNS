@@ -168,7 +168,7 @@ detected_threat_list = email_report.check_threats(total_allow_list_dedup, threat
 
 email_report.create_threat_log_files(detected_threat_list)
 
-email_report.email_report(top_100_sites_allow, top_100_sites_deny, top_1000_domains_allow, top_1000_domains_deny, "Global List", "Global Report", "anakaoka@trinet-hi.com", stop_date, start_date, total_queries, total_allow_queries, total_deny_queries)
+email_report.email_report(top_100_sites_allow, top_100_sites_deny, top_1000_domains_allow, top_1000_domains_deny, "Global List", "Global Report", "MASTERREPORT@DOMAIN.COM", stop_date, start_date, total_queries, total_allow_queries, total_deny_queries)
 
 
 if con:
