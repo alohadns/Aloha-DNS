@@ -15,6 +15,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+=========
 
-
-Aloha DNS
+Aloha DNS is a DNS filtering and reporting platform. It is built using PowerDNS as the engine for queries. The system allows for whitelisting and blacklisting DNS lookups. A reporting engine is also included that produces a report of queries as well as compares against various lists for virus, spyware and adware detecton.
