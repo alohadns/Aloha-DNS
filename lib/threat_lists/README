@@ -1,0 +1,8 @@
+This Folder is to contain subfolders named for the type of threat. Each subfolder needs to contain file(s) named threat_type.list. 
+
+For example:
+
+lib/threat_lists/adult/adult.list
+lib/threat_lists/virus/virus.list
+
+Each line in the list needs to be a FQDN or Hostname of a possible threat url.
